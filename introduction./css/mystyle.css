@@ -3,6 +3,8 @@ body {
 }
 
 h1 {
-  style= "color: #f69;
-  margin-align: center;
+  color: white;
+  text align: center;
+  margin: 0 auto;
+  width: fit-content;
 }
