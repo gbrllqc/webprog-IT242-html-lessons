@@ -1,10 +1,9 @@
 .header-footer-custom {
-  background-color: #6a4c93 !important; /* Deep Purple */
-  color: #ffffff !important;           /* Force white text */
+  background-color: #6a4c93 !important; 
+  color: #ffffff !important;          
   padding: 60px 0;
 }
 
-/* Specifically target the name Gabrielle in the header */
 .header-footer-custom h1 {
   color: #ffffff !important;
   font-family: 'Libre Baskerville', serif;
@@ -12,5 +11,34 @@
 }
 
 .header-footer-custom p {
-  color: #e0aaff !important; /* Lighter lavender for the sub-text */
+  color: #e0aaff !important; 
+
+
+
+.resource-card {
+  border: 1px solid rgba(106, 76, 147, 0.1);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+  display: block;
+  height: 100%;
+  background: #fff;
 }
+
+.resource-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(106, 76, 147, 0.15) !important;
+  border-bottom: 5px solid #6a4c93; 
+
+.resource-card h6 {
+  color: #2d2d2d;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.brand-w3s i { color: #04AA6D; }
+.brand-gemini i { color: #4a86e8; }
+.brand-google i { color: #ea4335; }
+.brand-github i { color: #24292e; }
+.brand-template i { color: #7952b3; }
+}}
