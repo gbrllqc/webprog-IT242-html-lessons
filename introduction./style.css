@@ -1,27 +1,38 @@
-/* Purple Theme */
-.header-footer-custom {
-  background-color: #6a4c93 !important; 
-  color: #FFFFFF;
-}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
   background-color: #f8f7ff;
   color: #2d2d2d;
+  /* Apply Libre Baskerville to everything */
+  font-family: 'Libre Baskerville', serif; 
+  line-height: 1.6;
+}
+
+/* Purple Header & Footer */
+.header-footer-custom {
+  background-color: #6a4c93 !important; 
+  color: #FFFFFF;
+  padding: 60px 0;
 }
 
 .content-card {
   background-color: #FFFFFF;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  box-shadow: 0 10px 30px rgba(106, 76, 147, 0.08);
+}
+
+.nav-link {
+  font-family: 'Libre Baskerville', serif;
 }
 
 .nav-link.active {
   color: #e0aaff !important;
   font-weight: bold;
+  text-decoration: underline;
 }
 
-/* Removed the border-left line from h2 */
-h2 {
+/* Titles - No more lines next to them */
+h1, h2, h3, h4 {
   color: #6a4c93;
   font-weight: 700;
   margin-bottom: 25px;
@@ -30,5 +41,10 @@ h2 {
 .themed-img {
   border-radius: 15px;
   border: 4px solid #f3e5f5;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.themed-img:hover {
+  transform: scale(1.02);
 }
