@@ -1,0 +1,59 @@
+body {
+  background-color: #f8f7ff; 
+  color: #2d2d2d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-footer-custom {
+  background-color: #6a4c93 !important;
+  color: #FFFFFF;
+}
+
+.content-card {
+  background-color: #FFFFFF !important;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(106, 76, 147, 0.1);
+  border: none;
+}
+
+.nav-link {
+  transition: color 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #e0aaff !important; 
+}
+
+.themed-img {
+  border: 6px solid #f3e5f5;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #6a4c93;
+  font-weight: 700;
+  border-left: 5px solid #b79ced;
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+
+.resource-card {
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+  display: block;
+  height: 100%;
+  background: #fff;
+  border: 1px solid rgba(106, 76, 147, 0.1);
+}
+
+.resource-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(106, 76, 147, 0.15) !important;
+}
+
+.brand-gemini i { color: #4a86e8; }
+.brand-bootstrap i { color: #7952b3; }
+.brand-github i { color: #24292e; }
